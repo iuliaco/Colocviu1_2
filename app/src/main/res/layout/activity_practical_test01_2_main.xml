@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    tools:context=".MainActivity">
+    tools:context=".Colocviu1_2MainActivity">
 
 
     <TextView
@@ -13,8 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/next_term"
-        android:text=""
         android:saveEnabled="false"
+        android:text="000"
 
         />
 
@@ -33,7 +33,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:text="ADD" />
+        android:text="ADD"
+        android:onClick="onClick"
+
+        />
 
     <Button
         android:id="@+id/compute"
@@ -42,6 +45,8 @@
         android:layout_below="@id/sum_text"
         android:text="COMPUTE"
         android:layout_centerHorizontal="true"
+        android:onClick="onClick"
+
         />
 
 </RelativeLayout>
